@@ -1,16 +1,62 @@
-# React + Vite
+# LifeLedger – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+LifeLedger is a web application that helps users manage important records, warranties, renewals, reminders, and other life-admin activities.
 
-Currently, two official plugins are available:
+## Live Demo
+- **Website:** https://life-ledger-frontend.vercel.app
+- **Backend API:** https://lifeledger-backend-claz.onrender.com
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React
+- Vite
+- JavaScript
+- Axios
+- CSS
 
-## React Compiler
+## Features
+- User registration and login
+- Dashboard
+- Record management
+- Reminders and history
+- Backend API integration
+- Persistent data storage through the backend
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation and Setup
 
-## Expanding the Oxlint configuration
+**1. Clone the repository**
+```bash
+git clone https://github.com/ashrith-17/LifeLedger-Frontend.git
+cd LifeLedger-Frontend
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+**2. Install dependencies**
+```bash
+npm install
+```
+
+**3. Configure the API URL**
+
+Create a `.env` file in the project root:
+
+```env
+VITE_API_URL=https://lifeledger-backend-claz.onrender.com
+```
+
+**4. Start the development server**
+```bash
+npm run dev
+```
+
+**5. Build for production**
+```bash
+npm run build
+```
+
+## Deployment
+The frontend is deployed using Vercel.
+
+## Related Repository
+- **Backend:** https://github.com/ashrith-17/LifeLedger-Backend
+
+## Author
+Nayini Ashrith
